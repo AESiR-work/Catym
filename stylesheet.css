@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80vw;
+}
+
+.topleft {
+    height: 40vh;
+    width: 50%;
+}
+
+.topright {
+    width: 50%;
+    height: 20vh;
+}
+
+.section1 {
+    min-height: 100px;
+    max-height: 900px;
+}
+
+.img {
+    width: 600px;
+    height: 650px;
+    position: relative;
+    left: 200px;
+    padding-top: 150px;
+}
+
+.logo {
+    width: 150px;
+    height: 110px;
+    position: relative;
+    left: 560px;
+    top: 40px;
+}
+
+.section2 h1 {
+    font-size: 2rem;
+}
+
+.section2 {
+    padding-left: 63px;
+    padding-right: 63px;
+}
+
+.section2 p {
+    font-size: larger;
+}
+
+.box {
+    padding: 1px 10px;
+    margin: 22px 110px;
+    min-width: 20vw;
+    align-self: center;
+    text-align: center;
+}
+
+.plantable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table {
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th {
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.section3 table td {
+    border-bottom: 2px solid black;
+}
+
+.section3 h1 {
+    font-size: 2.3rem;
+}
+
+.section3 {
+    padding: 73px;
+}
+
+footer {
+    padding: 23px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+
+.showcase video {
+    object-fit: fill;
+    opacity: 1;
+    position: relative;
+    left: 800px;
+    top: 50px;
+}
